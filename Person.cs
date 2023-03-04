@@ -19,6 +19,7 @@ namespace FirstApp
         }
 
         // Свойство с именем Get
+        // свойство = метод
         public string Name
         {
             get
@@ -38,9 +39,5 @@ namespace FirstApp
             _name = name;
         }
 
-        public void SetName(string name)
-        {
-            _name = name;
-        }
     }
 }
